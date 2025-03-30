@@ -3,6 +3,7 @@ import Banner from "./components/banner";
 import Arrow from "~/globalcomponents/arrow";
 import Gradient from "~/globalcomponents/gradient";
 import Indicator from "~/globalcomponents/pageindicator";
+import About from "./components/about";
 
 const page = () => {
   return (
@@ -13,7 +14,9 @@ const page = () => {
       <header className="h-screen w-screen relative">
         <Banner />
       </header>
-      <section className="h-screen w-screen"></section>
+      <section className="h-screen w-screen relative">
+        <About />
+      </section>
     </main>
   );
 };
