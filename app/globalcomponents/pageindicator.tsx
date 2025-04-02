@@ -39,7 +39,7 @@ const pageindicator = () => {
     const trigger = () => {
       if (
         sectionOne !== undefined &&
-        window.innerHeight - sectionOne >= 0 &&
+        window.innerHeight - sectionOne >= -1 &&
         window.innerHeight - sectionOne < window.innerHeight / 10
       ) {
         console.log(window.innerHeight - sectionOne);
@@ -51,7 +51,7 @@ const pageindicator = () => {
       if (
         sectionTwo !== undefined &&
         window.innerHeight - sectionTwo > 10 &&
-        window.innerHeight - sectionTwo < window.innerHeight
+        window.innerHeight - sectionTwo < window.innerHeight * 1.1
       ) {
         setPageTwo("bg-[#152238]");
       } else {
@@ -60,7 +60,7 @@ const pageindicator = () => {
 
       if (
         sectionThree !== undefined &&
-        window.innerHeight - sectionThree > (window.innerHeight / 2) * -1
+        window.innerHeight - sectionThree > (window.innerHeight / 6) * -1
       ) {
         setPageThree("bg-[#152238]");
       } else {
