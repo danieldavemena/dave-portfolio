@@ -36,10 +36,7 @@ const projects = () => {
   ];
 
   return (
-    <div
-      id="projects-section"
-      className="flex flex-col justify-center items-center [&>:not(:first-child)]:mt-[200px] "
-    >
+    <div className="flex flex-col justify-center items-center [&>:not(:first-child)]:mt-[200px] ">
       <ProjectContainer
         media={InstaClone}
         title="Instagram UI Clone"

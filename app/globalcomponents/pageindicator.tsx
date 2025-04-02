@@ -10,6 +10,8 @@ const pageindicator = () => {
       .getElementById("home-section")
       ?.getBoundingClientRect().bottom;
 
+    console.log(sectionOne);
+
     var sectionTwo = document
       .getElementById("about-section")
       ?.getBoundingClientRect().top;
@@ -38,7 +40,7 @@ const pageindicator = () => {
       if (
         sectionOne !== undefined &&
         window.innerHeight - sectionOne >= 0 &&
-        window.innerHeight - sectionOne < window.innerHeight * 0.1
+        window.innerHeight - sectionOne < window.innerHeight / 10
       ) {
         console.log(window.innerHeight - sectionOne);
         setPageOne("bg-[#152238]");
@@ -48,7 +50,7 @@ const pageindicator = () => {
 
       if (
         sectionTwo !== undefined &&
-        window.innerHeight - sectionTwo > 0 &&
+        window.innerHeight - sectionTwo > 10 &&
         window.innerHeight - sectionTwo < window.innerHeight
       ) {
         setPageTwo("bg-[#152238]");
@@ -56,7 +58,10 @@ const pageindicator = () => {
         setPageTwo("bg-[#e2e2e22f]");
       }
 
-      if (sectionThree !== undefined && window.innerHeight - sectionThree > 0) {
+      if (
+        sectionThree !== undefined &&
+        window.innerHeight - sectionThree > (window.innerHeight / 2) * -1
+      ) {
         setPageThree("bg-[#152238]");
       } else {
         setPageThree("bg-[#e2e2e22f]");

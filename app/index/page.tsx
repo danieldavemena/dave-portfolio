@@ -16,10 +16,16 @@ const page = () => {
       <header id="home-section" className="h-screen w-screen relative">
         <Banner />
       </header>
-      <section className="h-screen w-screen relative [&>*]:hover:scale-102 [&>*]:transition-all [&>*]:duration-150 [&>*]:ease-in-out">
+      <section
+        id="about-section"
+        className="h-screen w-screen relative [&>*]:hover:scale-102 [&>*]:transition-all [&>*]:duration-150 [&>*]:ease-in-out"
+      >
         <About />
       </section>
-      <section className="w-screen relative h-auto my-50 ">
+      <section
+        id="projects-section"
+        className="w-screen relative h-auto my-50 "
+      >
         <div className="mt-15"></div>
         <Projects />
       </section>
