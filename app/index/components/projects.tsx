@@ -33,6 +33,11 @@ const projects = () => {
       logo: "CSS3",
       badgeColor: "1572B6",
     },
+    {
+      badge: "Firebase",
+      logo: "Firebase",
+      badgeColor: "FFCA28",
+    },
   ];
 
   return (
@@ -47,7 +52,7 @@ const projects = () => {
       <ProjectContainer
         media={Pixmeet}
         title="PixMeet"
-        description="Pixmeet is a pixel art-themed chatroom where users can interact in a retro-inspired virtual space. Built with HTML, CSS, and JavaScript, this project blends real-time chat with character movement controls, allowing users to navigate the room as pixel avatars."
+        description="Pixmeet is a pixel art-themed chatroom where users can interact in a retro-inspired virtual space. Built with HTML, CSS, JavaScript, and Firebase, this project blends real-time chat with character movement controls, allowing users to navigate the room as pixel avatars."
         technology={projectTwo}
         weblink="https://pixmeet.netlify.app/"
       />
