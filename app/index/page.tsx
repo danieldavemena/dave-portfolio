@@ -19,11 +19,7 @@ const page = () => {
       <section className="h-screen w-screen relative [&>*]:hover:scale-102 [&>*]:transition-all [&>*]:duration-150 [&>*]:ease-in-out">
         <About />
       </section>
-      <section className="w-screen relative h-auto my-10 ">
-        <h1 className="text-center mb-10 text-[40px] content">
-          PERSONAL PROJECTS
-        </h1>
-
+      <section className="w-screen relative h-auto my-50 ">
         <div className="mt-15"></div>
         <Projects />
       </section>

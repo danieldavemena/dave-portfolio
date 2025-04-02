@@ -36,18 +36,20 @@ const projects = () => {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center [&>:not(:first-child)]:mt-10 ">
+    <div className="flex flex-col justify-center items-center [&>:not(:first-child)]:mt-[200px] ">
       <ProjectContainer
         media={InstaClone}
         title="Instagram UI Clone"
-        description="project description"
+        description="This is a pixel-perfect Instagram UI clone built with Next.js and Tailwind CSS, designed to replicate the look and feel of the original platform with smooth performance and responsiveness. Leveraging Next.js for fast rendering and Tailwind CSS for modern styling, this project showcases dynamic UI components, a sleek layout, and an optimized user experience. "
         technology={projectOne}
+        weblink="https://instagram-clone-by-dave.vercel.app/"
       />
       <ProjectContainer
         media={Pixmeet}
         title="PixMeet"
-        description="project description"
+        description="Pixmeet is a pixel art-themed chatroom where users can interact in a retro-inspired virtual space. Built with HTML, CSS, and JavaScript, this project blends real-time chat with character movement controls, allowing users to navigate the room as pixel avatars."
         technology={projectTwo}
+        weblink="https://pixmeet.netlify.app/"
       />
     </div>
   );

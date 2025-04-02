@@ -5,7 +5,10 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const banner = () => {
   return (
-    <div className="home-section banner text-zinc-200 absolute top-1/2 left-1/2 flex flex-col  justify-center  transform -translate-x-1/2 -translate-y-[65%]">
+    <div
+      id="home-section"
+      className=" banner text-zinc-200 absolute top-1/2 left-1/2 flex flex-col  justify-center  transform -translate-x-1/2 -translate-y-[65%]"
+    >
       <p className="select-none content text-[30px] tracking-[7px] ml-auto mr-[15px]">
         portfolio
       </p>

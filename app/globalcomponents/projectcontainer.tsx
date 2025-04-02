@@ -6,6 +6,7 @@ interface props {
   title: string;
   description: string;
   technology: any;
+  weblink: string;
 }
 
 const projectcontainer: React.FC<props> = ({
@@ -13,6 +14,7 @@ const projectcontainer: React.FC<props> = ({
   title,
   description,
   technology,
+  weblink,
 }) => {
   const tech = technology;
 
@@ -26,7 +28,7 @@ const projectcontainer: React.FC<props> = ({
             {title} -
           </p>
 
-          <div className="flex flex-row gap-3">
+          <div className="flex flex-row  gap-3">
             {tech.map((techs: any) => {
               return (
                 <img
@@ -39,12 +41,18 @@ const projectcontainer: React.FC<props> = ({
           </div>
         </div>
       </div>
-      <div className="flex-1">
+      <div className="flex-1 flex-col flex">
         <h1 className="mt-5 mb-5 content text-center w-full text-[20px] tracking-widest">
           {title}
         </h1>
         <Line />
-        <p></p>
+        <p className="mt-5 mx-5 text-justify text-[17px]">{description}</p>
+        <a
+          href={weblink}
+          className="cursor-pointer bg-[#ffffff16] ml-auto mr-5 font-bold tracking-widest mt-auto mb-10 py-2 px-10 rounded-lg w-max"
+        >
+          Visit Now
+        </a>
       </div>
     </div>
   );

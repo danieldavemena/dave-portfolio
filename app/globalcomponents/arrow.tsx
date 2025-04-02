@@ -9,12 +9,12 @@ const arrow = () => {
 
   useEffect(() => {
     var signal = document
-      .querySelector(".home-section")
+      .getElementById("home-section")
       ?.getBoundingClientRect().top;
 
     window.addEventListener("scroll", () => {
       signal = document
-        .querySelector(".home-section")
+        .getElementById("home-section")
         ?.getBoundingClientRect().top;
 
       trigger();
