@@ -33,3 +33,11 @@ body {
     color-scheme: dark;
   }
 }
+
+#links > a {
+  @apply hover:scale-110 transition-all duration-150;
+}
+
+#arrow {
+  @apply hover:shadow-[0_0_20px_#ffffff5f];
+}

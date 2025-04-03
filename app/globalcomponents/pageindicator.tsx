@@ -5,12 +5,17 @@ const pageindicator = () => {
   const [pageTwo, setPageTwo] = useState("bg-[#e2e2e22f]");
   const [pageThree, setPageThree] = useState("bg-[#e2e2e22f]");
 
+  const pageScroll = (scroll: any) => {
+    window.scrollTo({
+      top: scroll,
+      behavior: "smooth",
+    });
+  };
+
   useEffect(() => {
     var sectionOne = document
       .getElementById("home-section")
       ?.getBoundingClientRect().bottom;
-
-    console.log(sectionOne);
 
     var sectionTwo = document
       .getElementById("about-section")
@@ -42,7 +47,6 @@ const pageindicator = () => {
         window.innerHeight - sectionOne >= -1 &&
         window.innerHeight - sectionOne < window.innerHeight / 10
       ) {
-        console.log(window.innerHeight - sectionOne);
         setPageOne("bg-[#152238]");
       } else {
         setPageOne("bg-[#e2e2e22f]");
@@ -74,10 +78,19 @@ const pageindicator = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-8 items-center justify-center fixed top-1/2 transform  -translate-y-1/2 right-[39px] py-8 rounded-full w-[30px] bg-[#ffffff16] [&>*]:transition-all [&>*]:duration-150 [&>*]:ease-in-out">
-      <div className={`size-[12px] ${pageOne}  rounded-full`}></div>
-      <div className={`size-[12px] ${pageTwo}  rounded-full`}></div>
-      <div className={`size-[12px] ${pageThree}  rounded-full`}></div>
+    <div className="z-10 [&>*]:cursor-pointer  flex flex-col gap-8 items-center justify-center fixed top-1/2 transform -translate-y-1/2 right-[39px] py-8 rounded-full w-[30px] bg-[#ffffff16] [&>*]:transition-all [&>*]:duration-150 [&>*]:ease-in-out">
+      <div
+        className={`size-[12px] ${pageOne} transform  rounded-full`}
+        onClick={() => pageScroll(0)}
+      ></div>
+      <div
+        className={`size-[12px] ${pageTwo}  rounded-full`}
+        onClick={() => pageScroll(window.innerHeight)}
+      ></div>
+      <div
+        className={`size-[12px] ${pageThree}  rounded-full`}
+        onClick={() => pageScroll(window.innerHeight * 2)}
+      ></div>
     </div>
   );
 };

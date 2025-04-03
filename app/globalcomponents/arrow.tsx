@@ -4,7 +4,7 @@ import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 const arrow = () => {
   const [state, setState] = useState(
-    "animate-bounce  right-1/2 translate-x-1/2"
+    "scroll-down animate-bounce  right-1/2 translate-x-1/2"
   );
 
   useEffect(() => {
@@ -22,9 +22,9 @@ const arrow = () => {
 
     const trigger = () => {
       if (signal !== undefined && signal < 0) {
-        setState("right-[39px] rotate-540");
+        setState("scroll-up right-[39px] rotate-540");
       } else {
-        setState("animate-bounce  right-1/2 translate-x-1/2");
+        setState("scroll-down animate-bounce  right-1/2 translate-x-1/2");
       }
     };
 
@@ -33,9 +33,26 @@ const arrow = () => {
     return window.removeEventListener("scroll", () => {});
   }, []);
 
+  useEffect(() => {
+    document.querySelector(".scroll-up")?.addEventListener("click", () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    });
+
+    document.querySelector(".scroll-down")?.addEventListener("click", () => {
+      window.scrollTo({
+        top: window.innerHeight * 2,
+        behavior: "smooth",
+      });
+    });
+  });
+
   return (
     <div
-      className={` bg-[#ffffff16] cursor-pointer flex items-center transform justify-center size-[65px] rounded-[20px] transition-all ease-in-out duration-300 fixed  bottom-[39px] ${state}`}
+      id="arrow"
+      className={`z-10 bg-[#ffffff16] cursor-pointer flex items-center transform justify-center size-[65px] rounded-[20px] transition-all ease-in-out duration-300 fixed  bottom-[39px] ${state}`}
     >
       <FontAwesomeIcon color="#e2e2e22f" fontSize="27px" icon={faArrowDown} />
     </div>

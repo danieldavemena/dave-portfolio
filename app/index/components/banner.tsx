@@ -15,7 +15,10 @@ const banner = () => {
       <p className="select-none tracking-[25px] font-outline-2 text-transparent text-[120pt] transform -mt-[105px]">
         Developer
       </p>
-      <div className="flex flex-row gap-[40px] -mt-[35px] relative z-10">
+      <div
+        id="links"
+        className="flex flex-row gap-[40px] -mt-[35px] relative z-10"
+      >
         <a href="https://github.com/danieldavemena">
           <FontAwesomeIcon fontSize="40px" icon={faGithub} />
         </a>
