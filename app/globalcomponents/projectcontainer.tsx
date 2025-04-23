@@ -20,7 +20,7 @@ const projectcontainer: React.FC<props> = ({
 
   return (
     <div className="flex flex-row w-[1200px] gap-[20px]">
-      <div className="bg-[#ffffff16] text-zinc-2s00 w-[700px] hover:scale-102 transition-all duration-150 ease-in-out rounded-[25px] p-8 overflow-hidden">
+      <div className="bg-[#ffffff16] text-zinc-2s00 w-[700px] rounded-[25px] p-8 overflow-hidden">
         <img src={media} alt="" className="rounded-lg mb-3" />
         <Line />
         <div className="mt-3 flex flex-row gap-2">
@@ -49,7 +49,7 @@ const projectcontainer: React.FC<props> = ({
         <p className="mt-5 mx-5 text-justify text-[17px]">{description}</p>
         <a
           href={weblink}
-          className="cursor-pointer bg-[#ffffff16] ml-auto mr-5 font-bold tracking-widest mt-auto mb-10 py-2 px-10 rounded-lg w-max"
+          className="cursor-pointer bg-[#ffffff16] ml-auto mr-5 font-bold hover:scale-105 transition-all duration-150 ease-in-out tracking-widest mt-auto mb-10 py-2 px-10 rounded-lg w-max"
         >
           Visit Now
         </a>

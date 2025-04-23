@@ -3,7 +3,7 @@ import Line from "./line";
 
 const aboutblock = () => {
   return (
-    <div className="content grid grid-cols-3 grid-rows-3 [&>*]:m-2 bg-[#ffffff16] text-zinc-200 w-[1000px] h-[600px] rounded-[25px] p-10">
+    <div className="content grid grid-cols-3 grid-rows-2 [&>*]:m-2 bg-[#ffffff16] text-zinc-200 w-[1000px] h-[450px] rounded-[25px] p-10">
       <p className="col-span-1 bg-amber-300 row-span-2 "></p>
       <p className="text-justify text-lg col-span-2 ">
         Greeting! My name Daniel Dave Meña. A developer based in the
@@ -12,7 +12,7 @@ const aboutblock = () => {
         My approach focuses on clean, efficient code, seamless user experiences,
         and architectures that handle scale without compromising performance.
       </p>
-      <div className="col-span-2  row-span-2">
+      <div className="col-span-2  row-span-1">
         <Line />
         <p className="mt-2 font-bold tracking-widest text-center text-[20px]">
           Education
