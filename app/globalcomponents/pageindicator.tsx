@@ -78,17 +78,17 @@ const pageindicator = () => {
   }, []);
 
   return (
-    <div className="z-10 [&>*]:cursor-pointer  flex flex-col gap-8 items-center justify-center fixed top-1/2 transform -translate-y-1/2 right-[39px] py-8 rounded-full w-[30px] bg-[#ffffff16] [&>*]:transition-all [&>*]:duration-150 [&>*]:ease-in-out">
+    <div className="z-10 [&>*]:cursor-pointer  flex flex-col md:gap-8 gap-6 items-center justify-center fixed top-1/2 transform -translate-y-1/2 md:right-[39px] right-[10px] md:py-8 py-4 w-[20px] rounded-full md:w-[30px] bg-[#ffffff16] [&>*]:transition-all [&>*]:duration-150 [&>*]:ease-in-out">
       <div
-        className={`size-[12px] ${pageOne} transform  rounded-full`}
+        className={`md:size-[12px] size-[9px] ${pageOne} transform  rounded-full`}
         onClick={() => pageScroll(0)}
       ></div>
       <div
-        className={`size-[12px] ${pageTwo}  rounded-full`}
+        className={`md:size-[12px] size-[9px] ${pageTwo}  rounded-full`}
         onClick={() => pageScroll(window.innerHeight)}
       ></div>
       <div
-        className={`size-[12px] ${pageThree}  rounded-full`}
+        className={`md:size-[12px] size-[9px] ${pageThree}  rounded-full`}
         onClick={() => pageScroll(window.innerHeight * 2)}
       ></div>
     </div>
