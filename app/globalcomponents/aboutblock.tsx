@@ -6,7 +6,7 @@ const aboutblock = () => {
     <div className="content grid md:grid-cols-3 md:grid-rows-2 grid-cols-2 grid-rows-3 [&>*]:m-2 bg-[#ffffff16] text-zinc-200 md:w-[1000px] md:h-[450px] w-[300px] h-[700px] rounded-[25px] md:p-10 p-5">
       <div className="  bg-gradient-to-r from-gray-500 to-[#152238] md:col-span-1 md:row-span-2 col-span-2 row-span-1 rounded-xl ">
         <img
-          className="md:scale-110 md:mt-3.5 scale-75 -mt-8"
+          className="md:scale-110 md:mt-3.5 scale-75 -mt-8.5"
           src="/images/Portrait.png"
           alt="Dave"
         />
