@@ -52,7 +52,7 @@ const projectcontainer: React.FC<props> = ({
         </p>
         <a
           href={weblink}
-          className="cursor-pointer bg-[#ffffff16] ml-auto mr-5 font-bold hover:scale-105 transition-all duration-150 ease-in-out tracking-widest md:mt-auto mt-5 mb-10 py-2 px-10 rounded-lg w-max md:text-md text-xs"
+          className="cursor-pointer bg-[#ffffff16] ml-auto mr-5 font-bold hover:scale-105 transition-all duration-150 ease-in-out tracking-widest mt-5 mb-10 py-2 px-10 rounded-lg w-max md:text-lg text-xs"
         >
           Visit Now
         </a>
