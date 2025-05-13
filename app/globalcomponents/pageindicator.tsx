@@ -78,7 +78,7 @@ const pageindicator = () => {
   }, []);
 
   return (
-    <div className="z-10 [&>*]:cursor-pointer  flex flex-col md:gap-8 gap-6 items-center justify-center fixed top-1/2 transform -translate-y-1/2 md:right-[39px] right-[10px] md:py-8 py-4 w-[20px] rounded-full md:w-[30px] bg-[#ffffff16] [&>*]:transition-all [&>*]:duration-150 [&>*]:ease-in-out">
+    <div className="z-10 [&>*]:cursor-pointer md:flex flex-col md:gap-8 gap-6 items-center justify-center fixed hidden top-1/2 transform -translate-y-1/2 right-[39px]  py-8 rounded-full w-[30px] bg-[#ffffff16] [&>*]:transition-all [&>*]:duration-150 [&>*]:ease-in-out">
       <div
         className={`md:size-[12px] size-[9px] ${pageOne} transform  rounded-full`}
         onClick={() => pageScroll(0)}
