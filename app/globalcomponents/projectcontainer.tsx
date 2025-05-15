@@ -33,7 +33,7 @@ const projectcontainer: React.FC<props> = ({
         <p className="md:mt-5 mt-2 md:mx-5 text-justify md:text-[17px] text-[13px] text-zinc-400">
           {description}
         </p>
-        <div className="mb-5 flex  flex-wrap items-center mt-5 mx-5 md:overflow-hidden overflow-scroll md:w-max w-[300px] gap-3 [&>*]:rounded-md">
+        <div className=" flex flex-wrap mt-5 px-5 md:overflow-hidden overflow-scroll md:w-max w-[300px] gap-3 [&>*]:rounded-md">
           {tech.map((techs: any) => {
             return (
               <img

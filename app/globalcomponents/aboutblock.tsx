@@ -14,7 +14,7 @@ const aboutblock = () => {
       <div className="text-justify md:text-lg text-[13px] bg-[#ffffff16]   rounded-[16px] md:p-13 p-5">
         <div className="flex flex-col md:w-[600px] w-[300px] md:px-[50px] md:py-[20px] px-[20px] py-[10px]">
           <h1 className="banner md:text-8xl text-5xl md:mb-2">Daniel Dave</h1>
-          <p className="md:text-[16px] text-[11px] text-zinc-400">
+          <p className="md:text-[16px] text-[13px] text-zinc-400">
             Hello, I'm Daniel, a Computer Engineer from the Philippines. I build
             modern, scalable web applications using Next.js, Tailwind CSS, and
             Supabase. With a strong focus on both functionality and performance,
