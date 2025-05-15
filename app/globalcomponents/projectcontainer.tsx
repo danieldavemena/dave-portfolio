@@ -19,7 +19,7 @@ const projectcontainer: React.FC<props> = ({
   const tech = technology;
 
   return (
-    <div className="flex md:flex-row flex-col items-center md:w-[1200px] w-[320px] gap-[20px]">
+    <div className="flex md:flex-row flex-col items-center md:w-[1200px] w-[320px] md:gap-[20px] gap-[5px]">
       <a
         href={weblink}
         className="hover:-translate-x-[3px] hover:-translate-y-[3px] transform transition-all ease-in duration-50 md:w-[700px] w-[320px] "
@@ -27,10 +27,10 @@ const projectcontainer: React.FC<props> = ({
         <img src={media} alt="" className="rounded-lg mb-3" />
       </a>
       <div className="md:flex-1 flex-col flex w-[300px]">
-        <h1 className="mt-5 mx-5  content  w-full md:text-[25px] text-[20px] font-bold tracking-widest">
+        <h1 className="mt-5 md:mx-5 text-center md:text-left w-full md:text-[25px] text-[20px] font-bold tracking-widest">
           {title}
         </h1>
-        <p className="md:mt-5 mt-2 mx-5 text-justify md:text-[17px] text-[13px] text-zinc-400">
+        <p className="md:mt-5 mt-2 md:mx-5 text-justify md:text-[17px] text-[13px] text-zinc-400">
           {description}
         </p>
         <div className="mb-5 flex  flex-wrap items-center mt-5 mx-5 md:overflow-hidden overflow-scroll md:w-max w-[300px] gap-3 [&>*]:rounded-md">
