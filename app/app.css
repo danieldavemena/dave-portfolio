@@ -30,7 +30,7 @@
 
 html,
 body {
-  @apply overflow-x-hidden bg-white dark:bg-[#152238];
+  @apply overflow-x-hidden bg-white dark:bg-[#0f131a];
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
