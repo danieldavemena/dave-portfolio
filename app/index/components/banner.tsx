@@ -12,7 +12,7 @@ const banner = () => {
       <p className="select-none md:tracking-[12px] md:text-[120pt] md:-mt-[50px] text-[50pt] -mt-[10px]">
         Daniel Dave
       </p>
-      <p className="select-none md:tracking-[25px] tracking-[5px] md:font-outline-2 font-outline-1 text-transparent md:text-[120pt] transform md:-mt-[105px] text-[50pt] -mt-[35px]">
+      <p className="select-none md:tracking-[25px] tracking-[5px] font-outline text-transparent md:text-[120pt] transform md:-mt-[105px] text-[50pt] -mt-[35px]">
         Developer
       </p>
       <div
