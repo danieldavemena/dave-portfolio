@@ -10,22 +10,22 @@ const page = () => {
     <main>
       <img
         className="fixed blur-3xl transform md:-translate-x-[15vw] md:-translate-y-[20vh] -translate-x-[20vw]   opacity-70"
-        src="/public/images/blob-1.svg"
+        src="/images/blob-1.svg"
         alt=""
       />
       <img
         className="fixed blur-3xl transform md:translate-x-[60vw] md:translate-y-[20vh] translate-x-[20vw] translate-y-[60vh] opacity-70"
-        src="/public/images/blob-2.svg"
+        src="/images/blob-2.svg"
         alt=""
       />
       <img
         className="fixed blur-3xl transform md:translate-x-[5vw] md:translate-y-[35vh] -translate-x-[50vw] translate-y-[40vh] opacity-20"
-        src="/public/images/blob-3.svg"
+        src="/images/blob-3.svg"
         alt=""
       />
       <img
         className="fixed blur-3xl transform md:translate-x-[40vw] md:-translate-y-[40vh] translate-x-[50vw] translate-y-[20vh] opacity-20"
-        src="/public/images/blob-4.svg"
+        src="/images/blob-4.svg"
         alt=""
       />
       <Arrow />
