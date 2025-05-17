@@ -24,7 +24,7 @@ const aboutblock = () => {
           </p>
         </div>
       </div>
-      <div className="md:w-[450px] w-[350px] md:justify-start justify-center md:-ml-[50px] flex contain gap-2 flex-wrap md:[&>*]:h-[40px] [&>*]:h-[35px] [&>*]:rounded-[10px] [&>*]:hover:-translate-x-[3px] [&>*]:hover:-translate-y-[3px] [&>*]:transform transition-all [&>*]:ease-in [&>*]:duration-50">
+      <div className="md:w-[450px] w-[350px] md:justify-start justify-center md:-ml-[50px] flex contain gap-2 flex-wrap md:[&>*]:h-[40px] [&>*]:h-[32px] [&>*]:rounded-[10px] [&>*]:hover:-translate-x-[3px] [&>*]:hover:-translate-y-[3px] [&>*]:transform transition-all [&>*]:ease-in [&>*]:duration-50">
         <img
           src="https://img.shields.io/badge/NextJs-black.svg?style=for-the-badge&logo=Next.js&logoColor=white&labelColor=000000"
           alt="badge"
