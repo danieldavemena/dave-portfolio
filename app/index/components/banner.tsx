@@ -9,7 +9,7 @@ const banner = () => {
       <p className="select-none content md:text-[30px] md:tracking-[7px] ml-auto md:mr-[15px] text-[20px] tracking-[2px]">
         portfolio
       </p>
-      <p className="select-none md:tracking-[12px] md:text-[120pt] md:-mt-[50px] text-[50pt] -mt-[10px]">
+      <p className="select-none md:tracking-[12px] bg-gradient-to-tr from-yellow-300 via-purple-400 to-red-500 text-transparent bg-clip-text md:text-[120pt] md:-mt-[50px] text-[50pt] -mt-[10px]">
         Daniel Dave
       </p>
       <p className="select-none md:tracking-[25px] tracking-[5px] font-outline text-transparent md:text-[120pt] transform md:-mt-[105px] text-[50pt] -mt-[35px]">

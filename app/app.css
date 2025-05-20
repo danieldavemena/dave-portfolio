@@ -24,7 +24,7 @@
 
 html,
 body {
-  @apply overflow-x-hidden bg-white dark:bg-[#0f131a];
+  @apply overflow-x-hidden bg-white dark:bg-[#090c11];
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
