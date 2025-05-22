@@ -54,6 +54,7 @@ const projects = () => {
             );
           })}
         </div>
+        <div className="mt-[80px]"></div>
       </div>
     </main>
   );
