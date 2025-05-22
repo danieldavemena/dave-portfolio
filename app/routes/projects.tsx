@@ -37,16 +37,18 @@ const projects = () => {
                   window.location.href = data.webUrl;
                 }}
                 key={key}
-                className="bg-[#ffffff16] hover:scale-102 duration-200 transition-all ease-in-out  overflow-hidden w-full rounded-lg  "
+                className="bg-[#ffffff16] hover:scale-102 cursor-pointer duration-200 transition-all ease-in-out  overflow-hidden  rounded-lg  "
               >
-                <div className="overflow-clip h-[185px]  rounded-t-lg">
-                  <img src={data.imgUrl} alt="" className="object-fill" />
+                <div className="overflow-clip h-[200px]  rounded-t-lg">
+                  <img src={data.imgUrl} alt="key" />
                 </div>
                 <div className="p-2">
-                  <h2 className="font-bold text-[15pt] content">
+                  <h2 className="font-bold md:text-[15pt] content">
                     {data.title}
                   </h2>
-                  <p className="mt-2 text-[#ffffffac]">☆ {data.description}</p>
+                  <p className="mt-2 md:text-[13pt] text-[11pt] text-[#ffffffac]">
+                    ☆ {data.description}
+                  </p>
                 </div>
               </div>
             );

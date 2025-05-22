@@ -16,7 +16,19 @@
       "imgUrl": "/images/be-my-valentine.png",
       "webUrl": "https://bemyvalentine-one.vercel.app/",
       "title": "Be My Valentine",
-      "description": "Ask a date using a wesbite where they can't say no"
+      "description": "Ask for a date using a wesbite where they can't say no"
+    },
+    {
+      "imgUrl": "/images/instagram-clone.png",
+      "webUrl": "https://instagram-clone-by-dave.vercel.app/",
+      "title": "Instagram UI Clone",
+      "description": "A clone of instagram's user interface with custom loading animation"
+    },
+    {
+      "imgUrl": "/images/pixmeet.png",
+      "webUrl": "https://pixmeet.netlify.app/",
+      "title": "Pixmeet - Pixel Art Meetup",
+      "description": "Chat with your friend in a pixel art themed chat room"
     }
   ]
 }

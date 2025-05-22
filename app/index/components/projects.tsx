@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectContainer from "~/globalcomponents/projectcontainer";
-import InstaClone from "/images/instagram-clone-preview.png";
-import Pixmeet from "/images/pixmeet-preview.png";
+import InstaClone from "/images/instagram-clone.png";
+import Pixmeet from "/images/pixmeet.png";
 
 const projects = () => {
   const projectOne = [
