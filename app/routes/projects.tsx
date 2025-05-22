@@ -29,11 +29,13 @@ const projects = () => {
       />
 
       <div className="md:w-[1200px] w-[360px]   absolute left-1/2 top-30 transform -translate-x-1/2">
-        <div className="md:columns-3 columns-1 [&>*:not(:first-child)]:mt-5">
+        <div className="md:columns-3 columns-1 [&>*:not(:first-child)]:mt-5 ">
           {project.projects.map((data, key) => {
             return (
               <div
-                onClick={() => redirect(data.webUrl)}
+                onClick={() => {
+                  window.location.href = data.webUrl;
+                }}
                 key={key}
                 className="bg-[#ffffff16] hover:scale-102 duration-200 transition-all ease-in-out  overflow-hidden w-full rounded-lg  "
               >
