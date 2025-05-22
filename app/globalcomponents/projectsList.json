@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "imgUrl": "/images/conference-ticket-generator.png",
+      "webUrl": "https://conference-ticket-generator-main-rose.vercel.app/",
+      "title": "Conference Ticket Generator",
+      "description": "A challenge frontend web development by frontendmentor"
+    },
+    {
+      "imgUrl": "/images/wpf-calculator.png",
+      "webUrl": "https://github.com/danieldavemena/wpf-calculator",
+      "title": "WPF Calculator",
+      "description": "A practice application aimed for studying windows presentation forms and xaml"
+    },
+    {
+      "imgUrl": "/images/be-my-valentine.png",
+      "webUrl": "https://bemyvalentine-one.vercel.app/",
+      "title": "Be My Valentine",
+      "description": "Ask a date using a wesbite where they can't say no"
+    }
+  ]
+}
