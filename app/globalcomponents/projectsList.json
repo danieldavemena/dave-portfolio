@@ -29,6 +29,12 @@
       "webUrl": "https://pixmeet.netlify.app/",
       "title": "Pixmeet - Pixel Art Meetup",
       "description": "Chat with your friend in a pixel art themed chat room"
+    },
+    {
+      "imgUrl": "/images/stars-by-dave.png",
+      "webUrl": "https://starsbydave.netlify.app/",
+      "title": "Stars by Dave",
+      "description": "A website showcasing javascript events and react js state management"
     }
   ]
 }
