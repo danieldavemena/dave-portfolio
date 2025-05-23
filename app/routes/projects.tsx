@@ -29,7 +29,7 @@ const projects = () => {
       />
 
       <div className="md:w-[1200px] w-[360px]   absolute left-1/2 top-30 transform -translate-x-1/2">
-        <div className="md:columns-3 columns-1 [&>*:not(:first-child)]:mt-5 ">
+        <div className="inline-flex justify-center flex-wrap gap-5 ">
           {project.projects.map((data, key) => {
             return (
               <div
@@ -37,9 +37,9 @@ const projects = () => {
                   window.location.href = data.webUrl;
                 }}
                 key={key}
-                className="bg-[#ffffff16] hover:scale-102 cursor-pointer duration-200 transition-all ease-in-out  overflow-hidden  rounded-lg  "
+                className="bg-[#ffffff16] w-[350px] hover:scale-102 cursor-pointer duration-200 transition-all ease-in-out  overflow-hidden  rounded-lg  "
               >
-                <div className="overflow-clip h-[200px]  rounded-t-lg">
+                <div className="overflow-clip h-[200px]   rounded-t-lg">
                   <img src={data.imgUrl} alt="key" />
                 </div>
                 <div className="p-2">

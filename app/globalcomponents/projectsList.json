@@ -1,9 +1,9 @@
 {
   "projects": [
     {
-      "imgUrl": "/images/conference-ticket-generator.png",
-      "webUrl": "https://conference-ticket-generator-main-rose.vercel.app/",
-      "title": "Conference Ticket Generator",
+      "imgUrl": "/images/news-homepage.png",
+      "webUrl": "https://news-homepage-main-navy-zeta.vercel.app/",
+      "title": "News Homepage",
       "description": "A challenge frontend web development by frontendmentor"
     },
     {
@@ -13,16 +13,22 @@
       "description": "A practice application aimed for studying windows presentation forms and xaml"
     },
     {
-      "imgUrl": "/images/be-my-valentine.png",
-      "webUrl": "https://bemyvalentine-one.vercel.app/",
-      "title": "Be My Valentine",
-      "description": "Ask for a date using a wesbite where they can't say no"
+      "imgUrl": "/images/conference-ticket-generator.png",
+      "webUrl": "https://conference-ticket-generator-main-rose.vercel.app/",
+      "title": "Conference Ticket Generator",
+      "description": "A challenge frontend web development by frontendmentor"
     },
     {
       "imgUrl": "/images/instagram-clone.png",
       "webUrl": "https://instagram-clone-by-dave.vercel.app/",
       "title": "Instagram UI Clone",
       "description": "A clone of instagram's user interface with custom loading animation"
+    },
+    {
+      "imgUrl": "/images/be-my-valentine.png",
+      "webUrl": "https://bemyvalentine-one.vercel.app/",
+      "title": "Be My Valentine",
+      "description": "Ask for a date using a wesbite where they can't say no"
     },
     {
       "imgUrl": "/images/pixmeet.png",
