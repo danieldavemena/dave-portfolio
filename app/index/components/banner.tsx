@@ -22,7 +22,7 @@ const banner = () => {
         <a href="https://github.com/danieldavemena">
           <FontAwesomeIcon fontSize="40px" icon={faGithub} />
         </a>
-        <a href="https://www.linkedin.com/in/daniel-dave-me%C3%B1a-0b9286210/">
+        <a href="https://www.linkedin.com/in/danieldavemena/">
           <FontAwesomeIcon fontSize="40px" icon={faLinkedin} />
         </a>
         <a href="mailto:danieldanieldanieldave@gmail.com">
