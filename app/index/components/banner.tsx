@@ -15,7 +15,7 @@ const banner = () => {
       <p className="select-none md:tracking-[25px] tracking-[5px] font-outline text-transparent md:text-[120pt] transform md:-mt-[105px] text-[50pt] -mt-[35px]">
         Developer
       </p>
-      <div
+      {/* <div
         id="links"
         className="md:flex hidden flex-row gap-[40px] -mt-[35px] relative z-10"
       >
@@ -28,8 +28,8 @@ const banner = () => {
         <a href="mailto:danieldavemena.dev@gmail.com">
           <FontAwesomeIcon fontSize="40px" icon={faEnvelope} />
         </a>
-      </div>
-      <div
+      </div> */}
+      {/* <div
         id="links"
         className="flex md:hidden flex-row gap-[20px] -mt-[10px] relative z-10"
       >
@@ -42,7 +42,7 @@ const banner = () => {
         <a href="mailto:danieldanieldanieldave@gmail.com">
           <FontAwesomeIcon fontSize="30px" icon={faEnvelope} />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
