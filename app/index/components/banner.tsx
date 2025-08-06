@@ -26,7 +26,7 @@ const banner = () => {
           <FontAwesomeIcon fontSize="40px" icon={faLinkedin} />
         </a>
         <a href="mailto:danieldavemena.dev@gmail.com">
-          <FontAwesomeIcon fontSize="40px" icon={faEnvelope} />
+          <FontAwesomeIcon fontSize="40px" icon={faEnvelope}/>
         </a>
       </div> */}
       {/* <div
